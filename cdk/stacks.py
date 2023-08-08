@@ -115,17 +115,17 @@ class MyDNSSECStack(Stack):
         )
 
 
-# class MyApiSubdomainStack(Stack):
-#     def __init__(
-#         self,
-#         scope: Construct,
-#         id: str = "my-api-subdomain-stack",
-#         *,
-#         stack_name: str = "my-api-subdomain-stack",
-#         **kwargs,
-#     ) -> None:
-#         env = constructs.MyEnvironment()
+class MyApiSubdomainStack(Stack):
+    def __init__(
+        self,
+        scope: Construct,
+        id: str = "my-api-subdomain-stack",
+        *,
+        stack_name: str = "my-api-subdomain-stack",
+        **kwargs,
+    ) -> None:
+        env = constructs.MyEnvironment()
 
-#         super().__init__(scope, id, env=env, stack_name=stack_name, **kwargs)
+        super().__init__(scope, id, env=env, stack_name=stack_name, **kwargs)
 
-#         # TODO: do stuff
+        # TODO: do stuff
