@@ -6,4 +6,4 @@ This repo will contain all shared AWS infrastructure resources.
 
 - [ ] Add `api.` subdomain for routing all API requests
 - [ ] Add `thatsmidnight-api-bus` EventBridge bus for receiving all API requests
-- [ ] Enable DNSSEC signing on `thatsmidnight.com` Route 53 hosted zone
+- [x] Enable DNSSEC signing on `thatsmidnight.com` Route 53 hosted zone
