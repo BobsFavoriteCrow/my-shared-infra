@@ -5,7 +5,6 @@ description = "This repo will contain all my shared AWS infrastructure resources
 authors = ["thatsmidnight <10793854+thatsmidnight@users.noreply.github.com>"]
 license = "Creative Commons Zero v1.0 Universal"
 readme = "README.md"
-packages = [{include = "my_shared_infra"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
